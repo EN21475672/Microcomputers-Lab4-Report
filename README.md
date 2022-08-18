@@ -20,7 +20,7 @@ This laboratory is a good example of the external interrupt routine usage in a p
 ![A Representative Modal](Implemented-Modal.jpeg)
 
 ## Another Circuit(Breadboard)
-![Transistor Circuit](Transistor-Circuit.jpeg)
+<img src="https://github.com/EN21475672/Microcomputers-Lab4-Report/blob/main/Transistor-Circuit.jpeg" width="300" height="300" />
 
 ## Results
 The PCB circuit is working as intended. The code was made in such a way that, if the switches were to input anything other than the updated truth table values given, it will momenterally turn off all operations until the input matches with what is needed again. This is because, in a practical situation, this could be due to a malfunction, and operation during a malfunction is generally not a good idea. In addition this function and our task mentioned at the introduction, this implemented PCB circuit does them fine.
