@@ -108,7 +108,7 @@ void main(void){
 ```
 
 ## Code Used for The Practical Modal
-* For this, the Proteus tested code uploaded before works perfectly fine(which was uploaded into the breadboard circuit).
+* For this, the Proteus tested code uploaded before to CourseWeb works perfectly fine(which was uploaded into the breadboard circuit).
 ```c
 // PIC16F877A Configuration Bit Settings
 
