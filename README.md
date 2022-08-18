@@ -13,13 +13,21 @@ This laboratory is a good example of the external interrupt routine usage in a p
 ### Component Side of PCB
 ![Real implementation components](Mounted-Components.jpg)
 
-## Full Implementation 1
-![1st full Implementation](The-Full-Implementation.jpeg)
+## Full Implementation
+![Full Implementation](The-Full-Implementation.jpeg)
+
+## An Implemented Modal
+![A Representative Modal](Implemented-Modal.jpeg)
 
 ## Results
-The circuit is working as intended. The code was made in such a way that, if the switches were to input anything other than the updated truth table values given, it will momenterally turn off all operations until the input matches with what is needed again. This is because, in a practical situation, this could be due to a malfunction, and operation during a malfunction is generally not a good idea. In addition this function and our task mentioned at the introduction, this implemented circuit does them fine.
+The PCB circuit is working as intended. The code was made in such a way that, if the switches were to input anything other than the updated truth table values given, it will momenterally turn off all operations until the input matches with what is needed again. This is because, in a practical situation, this could be due to a malfunction, and operation during a malfunction is generally not a good idea. In addition this function and our task mentioned at the introduction, this implemented PCB circuit does them fine.
+
+The other implemented modal is to represent the water tank, if this was an actual scenario. When this modal is running, you can see that when the representive water level reaches the top switch 3, the water level drops down just filled to switch 3 level again, and this continues on in an oscillatory fashion. 
+
+So essentially, both implmetations yeilded good results, as the first PCB circuit with its implementation allowed us to test the code. While, the other modal showed how this would function in the practical situation.
 
 ## Code
+```c
 // PIC16F877A Configuration Bit Settings
 
 // 'C' source line config statements
@@ -87,3 +95,4 @@ void main(void)
  }
  return;
 }
+```
