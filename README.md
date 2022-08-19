@@ -1,4 +1,4 @@
-# Microcomputers_Lab4_Report
+# Microcomputers_Lab4_Report - Group 10
 
 ## Introduction 
 This laboratory is a good example of the external interrupt routine usage in a practical situation. We have a water tank which detects water level from three switches, when the bottom switch is on, water is filled and it continues to fill even when middle switch turns on. But when the third switch turns on, the interrupt (RB0 external interrupt) runs, which removes water from tank for 500 ms or simply half a second. Our task was to create a PCB which a PIC16F877A microcontroller can mount on, and send signals to do the above operation.
